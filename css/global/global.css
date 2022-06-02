@@ -1,0 +1,21 @@
+/*Estilos gerais*/
+body{
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  /*Padding para visualizar o como o site está ficando*/
+  padding-bottom: 600px;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, p{
+  margin: 0px;
+}

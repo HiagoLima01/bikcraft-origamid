@@ -1,0 +1,91 @@
+/*Font 1= poppiins|| font 2= roboto*/
+
+
+/*Código fonte 1- poppins*/
+.font-1-64{
+  font-family: 'poppins';
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 1.12;
+}
+
+.font-1-32{
+  font-family: 'poppins';
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+.font-1-24{
+  font-family: 'poppins';
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.font-1-18{
+  font-family: 'poppins';
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.33;
+}
+
+.font-1-18-b{
+  font-family: 'poppins';
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.33;
+}
+
+.font-1-16{
+  font-family: 'poppins';
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.font-1-12{
+  font-family: 'poppins';
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 1.33;
+}
+
+
+/*Código fonte 2- roboto*/
+
+.font-2-24{
+  font-family: 'roboto';
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.font-2-24-b{
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.font-2-18{
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.33;
+}
+
+.font-2-16{
+  font-family: 'roboto';
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.font-2-14{
+  font-family: 'poppins';
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.42;
+}

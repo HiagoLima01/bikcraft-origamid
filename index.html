@@ -3,32 +3,58 @@
 <html>
   <head>
     <!--Conjunto de caracteres-->
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <!--Responsividade, densidade de pixels-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--titulo do site-->
     <title>Bikcraft</title>
     <!--Breve descrição para facilitar busca-->
-    <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.">
-    <link rel="stylesheet" href="./css/style.css">
+    <meta
+      name="description"
+      content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft."
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+ 
+    <!--Fontes do google fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   </head>
   <body>
+    <!--Menu inicial do site-->
     <header class="header-bg">
       <div class="header">
-        <a href="./"><img src="./img/bikcraft.svg" alt="bikcraft"></a>
-      <!--Aria-label altera o texto que vai ser dito pela maquina-->
-      <nav aria-label="Menus">
-        <ul class="header-menu">
-          <li><a href="./bicicletas.html">Bicicletas</a></li>
-          <li><a href="./seguros.html">Seguro</a></li>
-          <li><a href="./contato.html">Contato</a></li>
-        </ul>
-
-      </nav>
-    </div>
+        <a href="./"><img src="./img/bikcraft.svg" alt="bikcraft" /></a>
+        <!--Aria-label altera o texto que vai ser dito pela maquina-->
+        <nav aria-label="Menus">
+          <ul class="header-menu font-1-18">
+            <li><a href="./bicicletas.html">Bicicletas</a></li>
+            <li><a href="./seguros.html">Seguro</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
+    <main class="intro-bg">
+      <div class="intro">
+        <div class="intro-conteudo">
+          <h1 class="font-1-64">
+            Bicicletas feitas sob medida<span class="ponto-amarelo font-1-64">.</span>
+          </h1>
+          <p class="font-2-24">
+            Bicicletas elétricas de alta precisão e qualidade, feitas sob medida
+            para você. Explore o mundo na sua velocidade com a Bikcraft.
+          </p>
+          <a href="./bicicletas.html" class="btn">SELECIONE A SUA</a>
+        </div>
+        <div class="intro-img">
+          <img
+            src="./img/fotos/introducao.jpg"
+            alt="Bicicleta elétrica preta"
+          />
+        </div>
+      </div>
+    </main>
   </body>
-
-
 </html>
