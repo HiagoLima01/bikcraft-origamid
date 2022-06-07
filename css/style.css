@@ -3,6 +3,8 @@
 /*Fontes/ componentes*/
 @import url(./utilidades/fontes.css);
 @import url(./utilidades/componentes.css);
+@import url(./utilidades/cores_preto-branco.css);
+@import url(./utilidades/cores_amarelo.css);
 /*Header*/
 @import url(./global/header.css);
 

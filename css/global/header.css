@@ -1,5 +1,5 @@
 .header-bg{
-  background-color: #000000;
+  background-color: var(--c12);
 
 }
 .header{display:flex;
@@ -35,7 +35,7 @@
   display: block;
   height: 2px;
   width: 0%;
-  background-color: white;
+  background-color: var(--w);
   /*animação da Linha do menu*/
   transition: 0.3s;
   position: absolute;
@@ -47,7 +47,7 @@
 
 .header-menu a{
   text-decoration: none;
-  color: white;
+  color: var(--w);
 }
 
 @media (max-width: 800px){
@@ -56,13 +56,13 @@
     gap: 20px;
   }
   .header-menu a{
-    background-color: #111;
+    background-color: var(--c11);
     padding: 12px 16px;
     border-radius: 5px;
   }
 
   .header-menu a:hover{
-    background-color: #2e2e2e;
+    background-color: var(--c10);
   }
   /*Tirar a linha do menu*/
   .header-menu a:after{

@@ -1,9 +1,9 @@
 .intro-bg{
   display: grid;
-  background-color: #000000;
-  color: white;
+  background-color: var(--c12);
+  color: var(--w);
   /*Cria o detalhe de vazado na imagem*/
-  box-shadow: inset 0 -120px white;
+  box-shadow: inset 0 -120px var(--w);
 }
 
 .intro{
@@ -28,12 +28,12 @@
   margin-bottom: 32px;
 }
 .intro span{
-  color: #F2A50C;
+  color: var(--p1);
 }
 
 .intro p{
   margin-bottom: 20px;
-  color: #B2B2B2;
+  color: var(--c5);
 }
 
 
@@ -64,7 +64,7 @@
   .intro-bg{
     background-color: #111111;
     padding-top: 40px;
-    box-shadow: inset 0 -60px white;
+    box-shadow: inset 0 -60px var(--w);
   }
 
   .intro-conteudo{

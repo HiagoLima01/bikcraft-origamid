@@ -1,0 +1,31 @@
+/*Classes utilitarias com as cores*/
+
+.p5{
+  color: #332200;  
+}
+
+.p4{
+  color: #664400;  
+}
+
+.p3{
+  color: #a66f00;  
+}
+
+.p2{
+  color: #e4a30b;  
+}
+
+.p1{
+  color: #ffbb00;  
+}
+
+/*Variaveis*/
+
+:root{
+  --p5:#332200; 
+  --p4:#664400;
+  --p3:#a66f00; 
+  --p2:#e4a30b;
+  --p1:#ffbb00;
+}
